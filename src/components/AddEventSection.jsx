@@ -7,7 +7,7 @@ export default function AddEventSection() {
             <div className="container">
                 <div className="left-section">
                     <h1>СТВОРИ СВОЄ <span className="header-blue">ВЛАСНЕ</span> ОГОЛОШЕННЯ!</h1>
-                    <button>ДОДАТИ ЗАХІД</button>
+                    <button className="btn-container">ДОДАТИ ЗАХІД</button>
                 </div>
                 <div className="right-section">
                     <button>ЗАХОДИ ЗА ДАТОЮ <i className="arrow down"></i></button>

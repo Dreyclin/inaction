@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import TopEventSection from "./components/TopEventSection";
+import Socials from "./components/Socials";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <AddEventSection />
       <TopEventSection />
+      <Socials />
       <Footer />
     </div>
   );
