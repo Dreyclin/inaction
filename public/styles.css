@@ -190,3 +190,27 @@ nav a {
 .info-item .info-price {
     font-weight: 600;
 }
+
+.footer {
+    background-color: #005E93;
+    padding: 55px 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer {
+    max-width: 25%;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.project-logo {
+    width: 150px;
+}
+
+.league-logo {
+    width: 200px;
+}

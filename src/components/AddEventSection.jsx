@@ -1,5 +1,5 @@
 import React from "react";
-import dateImg from "../images/date.svg"
+import dateImg from "../images/greeting-page/date.svg"
 
 export default function AddEventSection() {
     return (

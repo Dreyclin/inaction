@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/date.svg"
+import img from "../images/greeting-page/date.svg"
 import timeLogo from "../images/info-logos/Vector.svg"
 import placeLogo from "../images/info-logos/ic_outline-place.svg"
 import priceLogo from "../images/info-logos/ion_ticket-outline.svg"
