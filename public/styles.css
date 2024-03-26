@@ -13,6 +13,17 @@ header {
     justify-content: space-between;
 }
 
+.header-blue {
+    color: #005E93;
+}
+
+h2 {
+    color: #3F9BCF;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding: 37px;
+}
+
 header img {
     width: 120px;
 }
@@ -94,9 +105,6 @@ nav a {
     margin-bottom: 50px;
 }
 
-.header-blue {
-    color: #005E93;
-}
 
 .add-section .left-section button{
     border: 5px solid #3F9BCF;
@@ -117,5 +125,68 @@ nav a {
     border: none;
     background-color: transparent;
     color: #F2F6FF;
+    font-weight: 600;
+}
+
+.top-event-section {
+    background-color: #fff;
+}
+
+.circles-container {
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    display: inline;
+    position: relative;
+}
+
+.blue-container::before{
+    content: "";
+    position: absolute;
+    top: 470px;
+    left: 550px;
+    box-shadow: 0px 50px 300px 350px #005E93;
+    border-radius: 50%;
+}
+
+.purple-container::before{
+    content: "";
+    position: absolute;
+    top: 500px;
+    left: 1500px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 300px 350px #8D68BB;
+}
+
+.purple-circle {
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+   
+}
+
+.event-header {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.info-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info-item .info-text {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.info-item .info-image {
+    margin: 0 25px 0 0;
+    width: 25px!important;
+}
+
+.info-item .info-price {
     font-weight: 600;
 }

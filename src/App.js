@@ -1,6 +1,7 @@
 import AddEventSection from "./components/AddEventSection";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
+import TopEventSection from "./components/TopEventSection";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Navigation />
       <AddEventSection />
+      <TopEventSection />
     </div>
   );
 }
