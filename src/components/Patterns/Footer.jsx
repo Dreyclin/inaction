@@ -1,7 +1,7 @@
 import React from "react";
-import projLogo from "../images/logo.svg"
-import upshiftLogo from "../images/footer-logos/white_horizontal_ UPSHIFT Ukraine Logo 1.svg"
-import culturalLeagueLogo from "../images/footer-logos/white_horizontal_ UPSHIFT Ukraine Logo 2.svg"
+import projLogo from "../../images/logo.svg"
+import upshiftLogo from "../../images/footer-logos/white_horizontal_ UPSHIFT Ukraine Logo 1.svg"
+import culturalLeagueLogo from "../../images/footer-logos/white_horizontal_ UPSHIFT Ukraine Logo 2.svg"
 
 export default function Footer() {
     return (

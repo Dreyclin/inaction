@@ -1,7 +1,7 @@
 import React from "react";
-import ig from "../images/socials-logo/ig.svg"
-import tg from "../images/socials-logo/tg.svg"
-import phone from "../images/socials-logo/phone.svg"
+import ig from "../../images/socials-logo/ig.svg"
+import tg from "../../images/socials-logo/tg.svg"
+import phone from "../../images/socials-logo/phone.svg"
 
 
 export default function Socials() {

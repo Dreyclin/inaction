@@ -86,8 +86,7 @@ nav a {
 }
 
 .add-section {
-    background-image: url('/src/images/background.jpg');
-    background-color: #363636;
+    /* background-image: url('..src/images/greeting-page/backdound.svg'); */
     padding: 3% 0 0;
 }
 
