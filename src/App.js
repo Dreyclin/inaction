@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import EventType from "./components/Patterns/CategoryPatterns/EventType";
+import AuthorizationPage from "./components/AuthorizationPage/AuthorizationPage";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/circus" element={<EventType category="Цирк" />}></Route>
           <Route path="/vpo" element={<EventType category="ВПО" />}></Route>
           <Route path="/education" element={<EventType category="Освіта" />}></Route>
+          <Route path="/auth" element={<AuthorizationPage />}></Route>
         </Routes>
       </Router>
     </div>

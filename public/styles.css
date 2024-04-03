@@ -2,6 +2,11 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .container {
     max-width: 80%;
 }
@@ -309,4 +314,68 @@ nav a {
 
 .item-container {
     max-width: 20%;
+}
+
+.questions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.phone-numbers p{
+    font-weight: 600;
+    margin-bottom: 0!important;
+    margin-left: 10px;
+}
+
+.auth h3 {
+    text-align: center;
+    align-items: center;
+    padding: 115px 0 30px 0;
+    color: #005E93;
+    font-size: 2.5rem;
+}
+
+.auth-container {
+    max-width: 25%;
+    margin: 0 auto;
+    background-color: #3F9BCF;
+    border-radius: 10px;
+}
+
+.line {
+    height: 4px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.auth-buttons button{
+    width: 50%;
+    border: none;
+    background-color: #3F9BCF;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.auth-buttons .selected {
+    background-color: #005E93;
+}
+
+form {
+    padding: 20px 0 20px 0;
+}
+
+form input{
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    border: 3px solid #005E93;
+    color: #005E93;
+    font-weight: 600;
+    
 }
