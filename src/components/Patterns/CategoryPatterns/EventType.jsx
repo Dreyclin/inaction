@@ -12,10 +12,32 @@ export default function EventType(props) {
             <Header />
             <div className="container">
                 <div className="category-header-flex">
-                    <h3>Категорії: {props.category}</h3>
+                    <h3><span className="header-blue">Категорії: </span>{props.category}</h3>
                     <NavLink to="/">НА ГОЛОВНУ</NavLink>
                 </div>
-                <Item />
+                <div className="category-item-flex">
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                </div>
+                <div className="text-center">
+                    <button className="show-more-btn">ПОКАЗАТИ ЩЕ</button>
+                </div>
             </div>
             <Socials />
             <Footer />

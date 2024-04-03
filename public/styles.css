@@ -24,6 +24,10 @@ h2 {
     padding: 37px;
 }
 
+h3 {
+    font-weight: 800;
+}
+
 header img {
     width: 120px;
 }
@@ -256,4 +260,53 @@ nav a {
 
 .league-logo {
     width: 200px;
+}
+
+.category {
+    background-color: #363636;
+}
+
+.category-header-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0;
+}
+
+.category .show-more-btn {
+    padding: 15px 50px;
+    border: 5px solid #3F9BCF;
+    color: #3F9BCF;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 55px 0 100px 0;
+}
+
+.category-header-flex h3 {
+    color: #3F9BCF;
+}
+
+.category-header-flex a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.category-item {
+    max-width: 20%;
+}
+
+.category-item-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category-item-flex > * {
+    flex-basis: calc(20% - 10px);
+    margin: 5px;
+}
+
+.item-container {
+    max-width: 20%;
 }
