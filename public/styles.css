@@ -95,7 +95,10 @@ nav a {
 }
 
 .add-section {
-    /* background-image: url('..src/images/greeting-page/backdound.svg'); */
+    background-image: url('public-images/backdound.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 3% 0 0;
 }
 
@@ -204,7 +207,11 @@ nav a {
 
 .socials-section {
     padding: 55px 0;
-    background-color: #8D68BB;
+    background-image: url("public-images/backdound.svg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
 }
 
 .social-flex {
@@ -246,6 +253,7 @@ nav a {
 .footer {
     background-color: #005E93;
     padding: 55px 0;
+    z-index: 2;
 }
 
 .footer-flex {
@@ -378,4 +386,116 @@ form input[type="submit"] {
     color: #005E93;
     font-weight: 600;
     
+}
+
+.add-event-header {
+    background-image: url("public-images/backdound.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 60px 0;
+}
+
+.add-event-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-event-header h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+}
+
+.add-event-header a {
+    color: #000;
+    font-weight: 600;
+}
+
+.add-event-body {
+    background-color: #F2F6FF;
+}
+
+.add-event-flex {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.add-event-flex .info {
+    min-width: 40%;
+}
+
+.add-event-flex .info h3 {
+    color: #005E93;
+    padding: 55px 0 35px 0;
+}
+
+.add-event-flex .info form input,
+.add-event-flex .info form textarea,
+.add-event-flex .info form select {
+    border: 2px solid #3F9BCF;
+}
+
+.add-event-flex .info form select {
+    margin-bottom: 20px;
+}
+
+.add-event-body button[type="submit"] {
+    border: 4px solid #3F9BCF;
+    border-radius: 10px;
+    padding: 15px 60px;
+    font-weight: 600;
+    background-color: #fff;
+    font-size: 1.2rem;
+    margin: 20px 0 50px;
+}
+
+.add-event-body .right-section {
+    position: relative;
+}
+
+.add-event-body .right-section .blue-container::before {
+    top: 300px;
+    left: 200px;
+    box-shadow: 0px 0px 350px 200px #005E93;
+    z-index: 1;
+}
+
+.add-event-body .right-section .purple-container::before {
+    top: -200px;
+    left: 0px;
+    box-shadow: 0px 0px 350px 200px #8D68BB;
+    z-index: 1;
+}
+
+.add-event-body .right-section p {
+    display: inline-block;
+    font-weight: 700;
+    color: #005E93;
+    margin: 0 10px 0 0;
+}
+
+.add-event-body .right-section i {
+    color: #005E93;
+}
+
+.add-event-body .right-section button {
+    padding: 10px 30px;
+    border: 4px solid #3F9BCF;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #005E93;
+    margin: 0 0 0 10px;
+}
+
+.add-event-body .right-section img,
+.add-event-body .right-section p,
+.add-event-body .right-section i,
+.add-event-body .right-section button {
+    position: relative;
+    z-index: 2; /* Выставляем более высокий z-index для содержимого, чтобы оно было поверх контейнеров */
 }

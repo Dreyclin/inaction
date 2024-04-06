@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import EventType from "./components/Patterns/CategoryPatterns/EventType";
 import AuthorizationPage from "./components/AuthorizationPage/AuthorizationPage";
+import AddEventPage from "./components/AddEventPage/AddEventPage";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/vpo" element={<EventType category="ВПО" />}></Route>
           <Route path="/education" element={<EventType category="Освіта" />}></Route>
           <Route path="/auth" element={<AuthorizationPage />}></Route>
+          <Route path="/addevent" element={<AddEventPage />}></Route>
         </Routes>
       </Router>
     </div>
