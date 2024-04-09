@@ -12,7 +12,7 @@ export default function EventType(props) {
             <Header />
             <div className="container">
                 <div className="category-header-flex">
-                    <h3><span className="header-blue">Категорії: </span>{props.category}</h3>
+                    <h3><span className="header-blue">{props.header}</span>{props.subtitle}</h3>
                     <NavLink to="/">НА ГОЛОВНУ</NavLink>
                 </div>
                 <div className="category-item-flex">

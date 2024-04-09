@@ -3,12 +3,13 @@ import Header from "../Patterns/Header"
 import AddEventHeader from "./AddEventHeader";
 import Socials from "../Patterns/Socials"
 import Footer from "../Patterns/Footer"
+import img from "../../images/add-event-right.png"
 
 export default function AddEventPage() {
     return (
         <div className="add-event-page">
             <Header />
-            <AddEventHeader />
+            <AddEventHeader title="ДОДАТИ СВОЮ ПОДІЮ"/>
             <div className="add-event-body">
                 <div className="container">
                     <div className="add-event-flex">
@@ -43,7 +44,7 @@ export default function AddEventPage() {
                         <div className="right-section">
                             <div className="circles-container blue-container"></div>
                             <div className="circles-container purple-container"></div>
-                            <img src="" alt="" />
+                            <img src={img} alt="" />
                             <p>Хочеш вивести подію у ТОП?</p>
                             <i class="fa-regular fa-circle-question"></i>
                             <button>ОФОРМИТИ</button>

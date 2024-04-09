@@ -4,9 +4,9 @@ import AuthorizationHeader from "./AuthorizationHeader";
 
 export default function AuthorizationPage() {
     return (
-        <div className="">
+        <div className="auth-page">
             <AuthorizationHeader />
-            <div className="auth">
+            <div className="">
                 <h3>Авторизація</h3>
                 <div className="auth-container">
                     <div className="auth-buttons">

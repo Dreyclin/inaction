@@ -7,7 +7,9 @@ import priceLogo from "../../images/info-logos/ion_ticket-outline.svg"
 export default function Item(props) {
     return (
         <div className='item'>
-            <img className="event-cover" src={img} alt="" />
+            <div className="event-cover-container">
+                <img className="event-cover" src={img} alt="" />
+            </div>
             <h3 className="event-header">Егоїстки4</h3>
             <div className="info">
                 <div className="info-item">
