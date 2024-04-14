@@ -3,10 +3,18 @@ import img from "../../images/greeting-page/date.svg"
 import timeLogo from "../../images/info-logos/Vector.svg"
 import placeLogo from "../../images/info-logos/ic_outline-place.svg"
 import priceLogo from "../../images/info-logos/ion_ticket-outline.svg"
+import { useNavigate } from "react-router-dom"
 
 export default function Item(props) {
+    
+    const navigate = useNavigate();
+    
+    function openEvent() {
+        navigate(`/event/${props.category}`);
+    }
+
     return (
-        <div className='item'>
+        <div className='item' onClick={openEvent}>
             <div className="event-cover-container">
                 <img className="event-cover" src={img} alt="" />
             </div>

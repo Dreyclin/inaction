@@ -600,3 +600,151 @@ form input[type="submit"] {
     box-shadow: 0px 50px 350px 300px #8D68BB;
     z-index: 1;
 }
+
+.event-page-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0;
+}
+
+.event-page {
+    background-color: #F2F6FF;
+}
+
+.event-page-header h3 {
+    color: #3F9BCF;
+}
+
+.event-page-header a {
+    color: #000;
+    font-weight: 600;
+}
+
+.event-logo-container {
+    width: 280px;
+    height: 350px;
+    background-color: #D9D9D9;
+}
+
+.event-logo-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.event-page-body {
+    display: flex;
+}
+
+.event-page-body .left-section {
+    margin-right: 50px;
+}
+
+.event-page-body div,
+.event-page-body span,
+.event-page-body img,
+.event-page-body h2,
+.event-page-body button {
+    position: relative;
+    z-index: 2;
+}
+
+.event-page-header h3,
+.event-page-header a {
+    position: relative;
+    z-index: 2;
+}
+
+.event-page .blue-container::before {
+    top: 0;
+    right: 0;
+    box-shadow: -300px 0px 300px 350px #005E93;
+    z-index: 1;
+}
+
+.event-page .purple-container::before {
+    top: 0;
+    right: 0;
+    box-shadow: -400px 0px 300px 400px #8D68BB;
+    z-index: 1;
+}
+
+.event-page-body span {
+    color: #fff;
+}
+
+.event-page-body h2 {
+    padding: 0;
+    color: #fff;
+}
+
+.event-page-body .info-item {
+    margin: 20px 0;
+}
+
+.event-page-body .info-item img {
+    filter: grayscale(100%) brightness(10000%) invert(0%);
+}
+
+.event-page-body a {
+    color: #fff;
+}
+.event-page-header,
+.event-page-body {
+    overflow: hidden;
+}
+.event-page .line {
+    position: relative;
+    z-index: 2;
+}
+
+.event-page-body button {
+    padding: 15px 50px;
+    border: 4px solid #3F9BCF;
+    color: #005E93;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.event-page-container {
+    overflow: hidden;
+}
+
+.event-page .line {
+    height: 10px;
+    background-color: #3F9BCF;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.event-page-about {
+    position: relative;
+    z-index: 2;
+}
+
+.similar-item-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.similar-item-container .event-header,
+.similar-item-container .info-text {
+    color: #000;
+}
+
+.about-section h3,
+.similar-section .similar-header{
+    color: #005E93;
+    padding: 55px 0;
+}
+
+.similar-header-highlight {
+    color: #3F9BCF;
+}
+
+.about-section p {
+    font-weight: 600;
+}

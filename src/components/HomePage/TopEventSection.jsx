@@ -13,10 +13,10 @@ export default function TopEventSection() {
             <div className="container">
                 <h2><span className="header-blue">ТОП</span> події:</h2>
                 <OwlCarousel className='owl-theme' loop margin={30} autoplay>
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
+                    <Item category={"ТОП"}/>
+                    <Item category={"ТОП"}/>
+                    <Item category={"ТОП"}/>
+                    <Item category={"ТОП"}/>
                 </OwlCarousel>;
             </div>
         </div>

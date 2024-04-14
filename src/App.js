@@ -4,6 +4,7 @@ import EventType from "./components/Patterns/CategoryPatterns/EventType";
 import AuthorizationPage from "./components/AuthorizationPage/AuthorizationPage";
 import AddEventPage from "./components/AddEventPage/AddEventPage";
 import AccountPage from "./components/AccountPage/AccountPage";
+import EventPage from "./components/EventPage/EventPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/cabinet" element={<AccountPage />}></Route>
           <Route path="/liked" element={<EventType header="Улюблены " subtitle="заходи:" />}></Route>
           <Route path="/myevents" element={<EventType header="Мої " subtitle="заходи:" />}></Route>
+          <Route path="/event/:category" exact element={<EventPage />}></Route>
         </Routes>
       </Router>
     </div>

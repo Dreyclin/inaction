@@ -16,24 +16,24 @@ export default function EventType(props) {
                     <NavLink to="/">НА ГОЛОВНУ</NavLink>
                 </div>
                 <div className="category-item-flex">
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
-                    <Item />
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
+                    <Item category = {props.subtitle}/>
                 </div>
                 <div className="text-center">
                     <button className="show-more-btn">ПОКАЗАТИ ЩЕ</button>
