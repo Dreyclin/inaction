@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Patterns/Header";
-
 import Socials from "../Patterns/Socials"
 import Footer from "../Patterns/Footer"
 import EventPageHeader from "./EventHeader"

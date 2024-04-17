@@ -28,7 +28,7 @@ export default function EventPageBody() {
                         <span className="info-price info-text">Test</span>
                     </div>
                     <button>ПЕРЕЙТИ ДО ДЖЕРЕЛА</button>
-                    <NavLink to="/">Як придбати?</NavLink>
+                    <NavLink to="/howtobuy">Як придбати?</NavLink>
                 </div>
             </div>
     )

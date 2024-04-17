@@ -5,6 +5,7 @@ import AuthorizationPage from "./components/AuthorizationPage/AuthorizationPage"
 import AddEventPage from "./components/AddEventPage/AddEventPage";
 import AccountPage from "./components/AccountPage/AccountPage";
 import EventPage from "./components/EventPage/EventPage";
+import BuyPage from "./components/BuyPage/BuyPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/liked" element={<EventType header="Улюблены " subtitle="заходи:" />}></Route>
           <Route path="/myevents" element={<EventType header="Мої " subtitle="заходи:" />}></Route>
           <Route path="/event/:category" exact element={<EventPage />}></Route>
+          <Route path="/howtobuy" element={<BuyPage />}></Route>
         </Routes>
       </Router>
     </div>
