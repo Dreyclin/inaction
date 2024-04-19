@@ -4,12 +4,17 @@ import AddEventHeader from "./AddEventHeader";
 import Socials from "../Patterns/Socials"
 import Footer from "../Patterns/Footer"
 import img from "../../images/add-event-right.png"
+import DatePicker from "react-datepicker";
+import { useState } from "react";
 
 export default function AddEventPage() {
+
+    const [startDate, setStartDate] = useState(new Date());
+
     return (
         <div className="add-event-page">
             <Header />
-            <AddEventHeader title="ДОДАТИ СВОЮ ПОДІЮ"/>
+            <AddEventHeader title="ДОДАТИ СВОЮ ПОДІЮ" />
             <div className="add-event-body">
                 <div className="container">
                     <div className="add-event-flex">
@@ -26,12 +31,18 @@ export default function AddEventPage() {
                                     <input className="form-control" type="text" placeholder="Назва події" />
                                     <select className="form-select form-control">
                                         <option value="" disabled selected hidden>Рубрика</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
+                                        <option value="Прем'єра">Прем'єра</option>
+                                        <option value="Для дітей">Для дітей</option>
+                                        <option value="Стендап шоу">Стендап шоу</option>
+                                        <option value="Концерти">Концерти</option>
+                                        <option value="Театр">Театр</option>
+                                        <option value="Цирк">Цирк</option>
+                                        <option value="Для ВПО">Для ВПО</option>
+                                        <option value="Освіта">Освіта</option>
                                     </select>
                                     <input className="form-control" type="tel" placeholder="Організатор події" />
-                                    <input className="form-control" type="text" placeholder="Дата та час проведення" />
+                                    <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
+                                    <input className="form-control" type="text" placeholder="Час проведення" />
                                     <input className="form-control" type="email" placeholder="Адреса проведення" />
                                     <input className="form-control" type="tel" placeholder="Вартість (не вказуйте, якщо безкоштовно)" />
                                     <label htmlFor="image_uploads">Додайте фото</label>

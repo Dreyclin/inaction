@@ -288,7 +288,12 @@ nav a {
 }
 
 .category {
-    background-color: #363636;
+    background-color: #F2F6FF;
+}
+
+.category .item h3,
+.category .item span{
+    color: #000;
 }
 
 .category-header-flex {
@@ -371,10 +376,11 @@ nav a {
     border-radius: 10px;
 }
 
-.line {
+.auth-page .line {
     height: 4px;
     width: 100%;
     background-color: #fff;
+    margin: 0;
 }
 
 .auth-buttons button{
@@ -405,6 +411,12 @@ form input[type="submit"] {
     color: #005E93;
     font-weight: 600;
     
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
 }
 
 .add-event-header {
@@ -458,6 +470,8 @@ form input[type="submit"] {
 .add-event-flex .info form textarea,
 .add-event-flex .info form select {
     border: 2px solid #3F9BCF;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .add-event-flex .info form select {
@@ -581,6 +595,11 @@ form input[type="submit"] {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+}
+
+.recently-watched .item h3,
+.recently-watched .item span {
+    color: #000;
 }
 
 .account-page-body .blue-container::before {
@@ -825,4 +844,12 @@ form input[type="submit"] {
 .list-item-container {
     display: flex;
     align-items: flex-end
+}
+
+.react-datepicker-wrapper {
+    display: block!important;
+}
+
+.react-datepicker-wrapper input {
+    padding: 5px;
 }

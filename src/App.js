@@ -24,7 +24,7 @@ function App() {
           <Route path="/auth" element={<AuthorizationPage />}></Route>
           <Route path="/addevent" element={<AddEventPage />}></Route>
           <Route path="/cabinet" element={<AccountPage />}></Route>
-          <Route path="/liked" element={<EventType header="Улюблены " subtitle="заходи:" />}></Route>
+          <Route path="/liked" element={<EventType header="Улюблені " subtitle="заходи:" />}></Route>
           <Route path="/myevents" element={<EventType header="Мої " subtitle="заходи:" />}></Route>
           <Route path="/event/:category" exact element={<EventPage />}></Route>
           <Route path="/howtobuy" element={<BuyPage />}></Route>
